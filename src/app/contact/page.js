@@ -39,35 +39,38 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div>
-          <h3 className="font-semibold text-gray-900 text-xl mb-4 tracking-wide">Connect with us</h3>
-          <div className="flex gap-6 text-3xl text-blue-700">
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-900 transition"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-red-600 transition"
-              aria-label="YouTube"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="tel:+919876543210"
-              aria-label="Call"
-              className="hover:text-green-600 transition"
-            >
-              <FaPhoneAlt />
-            </a>
-          </div>
-        </div>
+  <h3 className="font-semibold text-gray-900 text-xl mb-4 tracking-wide">
+    Connect with us
+  </h3>
+  <div className="flex gap-6 text-3xl text-blue-700">
+    <a
+      href="https://www.instagram.com/velslandpromoters?igsh=Nmc3b3MydTN4aG5l&utm_source=qr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-blue-900 transition"
+      aria-label="Instagram"
+    >
+      <FaInstagram />
+    </a>
+    <a
+      href="https://youtube.com/@velsrealestate?si=Lk-2MNM6SFwR58Kb"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-red-600 transition"
+      aria-label="YouTube"
+    >
+      <FaYoutube />
+    </a>
+    <a
+      href="tel:+919384321998"
+      aria-label="Call"
+      className="hover:text-green-600 transition"
+    >
+      <FaPhoneAlt />
+    </a>
+  </div>
+</div>
+
       </div>
 
       <div className="text-center mt-12 text-base text-gray-600 tracking-wide">
