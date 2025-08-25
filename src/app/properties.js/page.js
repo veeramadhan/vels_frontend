@@ -36,7 +36,7 @@ export default function Properties() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:https://vels-backend-xkam.onrender.com/api/property/')
+      .get('https://vels-backend-xkam.onrender.com/api/property/')
       .then(res => setProperties(res.data))
       .catch(err => console.error('Failed to load properties', err));
   }, []);
